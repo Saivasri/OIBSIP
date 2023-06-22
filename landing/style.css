@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#Home {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+header {
+  background-image: url("https://wallpapercave.com/wp/wp7453677.jpg");
+  color: #fff;
+  padding: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 500px;
+}
+.heading {
+  text-align: center;
+}
+h1 span {
+  color: rgb(196, 63, 136);
+}
+span {
+  color: darkred;
+}
+.us {
+  margin: 0px auto;
+  text-align: center;
+  padding: 0px 50px 50px;
+}
+nav {
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+.product img {
+  width: 200px;
+  height: auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  padding: 10px 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 18px 0 black;
+}
+#Ordernow {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+}
+input[type="textarea"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  background-color: #1900ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: whitesmoke;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

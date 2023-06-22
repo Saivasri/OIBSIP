@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="saiva">
+      <div class="temp">
+        <h1>Temperature convertor</h1>
+        <i id="icon" class="fa-solid fa-face-grin"></i>
+        <p id="par"></p>
+      </div>
+      <div class="boxcontainer">
+        <div class="box">
+          <label>degree</label>
+          <input type="number" class="takval" />
+        </div>
+        <div class="box">
+          <label>type</label>
+          <select name="" id="unit">
+            <option value="Celsious">Celsious</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+          </select>
+        </div>
+        <div class="valuecontainer">
+          <p>Result</p>
+          <div class="value"></div>
+        </div>
+        <button onclick="temprature()" class="button">Convertor</button>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
